@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decimal to Binary Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="img" href="https://th.bing.com/th/id/OIG1.B3yS.Vz_s0OiuD54QTL4?w=270&h=270&c=6&r=0&o=5&dpr=1.1&pid=ImgGn">
+</head>
+<body>
+    <h1>Decimal to Binary Converter</h1>
+    <div class="calculator">
+        <input type="text" id="decimalInput" placeholder="Enter decimal number">
+        <div class="button-container">
+        <div>
+            <button onclick="addDigit('7')">7</button>
+            <button onclick="addDigit('8')">8</button>
+            <button onclick="addDigit('9')">9</button>
+            <button onclick="clearInput()">C</button>
+            <br>
+        </div>
+          <div>
+            <button onclick="addDigit('4')">4</button>
+            <button onclick="addDigit('5')">5</button>
+            <button onclick="addDigit('6')">6</button>
+            <button onclick="convertToBinary()">Convert</button>
+            <br>
+          </div>  
+            <div>
+            <button onclick="addDigit('1')">1</button>
+            <button onclick="addDigit('2')">2</button>
+            <button onclick="addDigit('3')">3</button>
+            <button onclick="deleteDigit()">Del</button>
+            <br>
+            </div>
+            <div>
+                <button onclick="addDigit('0')">0</button>
+            <button>.</button>  </div>
+            </div>
+            
+        <p id="binaryOutput"></p>
+    </div>
+    <a id="next" href="index2.html">Next</a>
+    <script src="scripe.js"></script>
+</body>
+</html>

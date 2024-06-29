@@ -1,0 +1,62 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    margin: 50px auto;
+    background: linear-gradient(black, lightblue, blue, orange);
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: gold;
+    
+}
+
+.calculator {
+    background: linear-gradient(lightblue, yellow, orange);
+    padding: 40px;
+    width: 350px;
+    margin: 10px auto 140px;
+}
+
+.calculator input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.button-container {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+
+.button-container button {
+    width: 80px;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+p {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+/* Disable decimal button for simplicity */
+button[disabled] {
+    opacity: 0.5;
+    cursor: default;
+}
+a{
+    background-color: black;
+    padding: 8px 15px;
+    color: aquamarine;
+    border-radius: 5px;
+}
